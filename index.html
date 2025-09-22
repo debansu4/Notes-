@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>notes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h1 class="text-3xl font-bold text-gray-900 mb-4" data-aos="fade-down">নোটস</h1>
+      <p class="text-lg text-gray-600" data-aos="fade-up">আপনার শ্রেণীর জন্য নোটস নিতে নিচে  ক্লিক করুন</p>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Class 12 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-pink-100 p-3 rounded-full mr-4">
+              <i data-feather="book" class="text-pink-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ১২ সেমেস্টার - IV</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ১২ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class12.pdf" target="_blank" class="block">
+            <button class="w-full bg-pink-600 hover:bg-pink-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Class 11 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-green-100 p-3 rounded-full mr-4">
+              <i data-feather="book-open" class="text-green-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ১১ সেমেস্টার - II</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ১১ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class11.pdf" target="_blank" class="block">
+            <button class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Class 10 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-purple-100 p-3 rounded-full mr-4">
+              <i data-feather="clipboard" class="text-purple-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ১০ মক পরীক্ষা</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ১০ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class10.pdf" target="_blank" class="block">
+            <button class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Class 9 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+              <i data-feather="edit" class="text-yellow-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ৯ মক পরীক্ষা</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ৯ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class9.pdf" target="_blank" class="block">
+            <button class="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Class 8 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-red-100 p-3 rounded-full mr-4">
+              <i data-feather="file-text" class="text-red-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ৮ মক পরীক্ষা</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ৮ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class8.pdf" target="_blank" class="block">
+            <button class="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Class 7 Card -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+              <i data-feather="pen-tool" class="text-indigo-600"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800">শ্রেণী ৭ মক পরীক্ষা</h2>
+          </div>
+          <p class="text-gray-600 mb-6">শ্রেণী ৭ এর নোটস বিস্তারিত জানতে নিচে ক্লিক করুন</p>
+          <a href="class7.pdf" target="_blank" class="block">
+            <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+              বিস্তারিত দেখুন
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+    feather.replace();
+  </script>
+</body>
+</html>
